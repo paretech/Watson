@@ -1,5 +1,5 @@
-update=Friday, September 20, 2013 10:14:08 PM
-last_client=cvpcb
+update=Saturday, September 21, 2013 09:51:32 PM
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -12,10 +12,27 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=watson
-[pcbnew]
-[pcbnew/libraries]
-LibName1=watson
-LibDir=
 [cvpcb]
 version=1
 NetIExt=net
+[pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0.6
+PadSizeH=1
+PadSizeV=1
+PcbTextSizeV=1
+PcbTextSizeH=1
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
+[pcbnew/libraries]
+LibDir=
+LibName1=/Users/paretech/Dropbox/Watson/watson
