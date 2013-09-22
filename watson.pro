@@ -1,17 +1,7 @@
-update=Saturday, September 21, 2013 09:51:32 PM
-last_client=pcbnew
+update=Sunday, September 22, 2013 04:04:55 PM
+last_client=eeschema
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=watson
 [cvpcb]
 version=1
 NetIExt=net
@@ -36,3 +26,13 @@ ModuleOutlineThickness=0.15
 [pcbnew/libraries]
 LibDir=
 LibName1=/Users/paretech/Dropbox/Watson/watson
+[eeschema]
+version=1
+LibDir=
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=watson
