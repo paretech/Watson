@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Saturday, September 21, 2013 10:01:07 PM
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Monday, September 23, 2013 09:32:20 PM
 
 BeginCmp
 TimeStamp = /522FBAA4;
 Reference = C1;
 ValeurCmp = 33u;
-IdModule  = c_tant_A;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /522FBB76;
 Reference = C4;
 ValeurCmp = 33u;
-IdModule  = c_tant_A;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -134,6 +134,13 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /523F4499;
+Reference = F1;
+ValeurCmp = CERAMIC_FILTER;
+IdModule  = Murata_SFECV_Ceramic_Filter;
+EndCmp
+
+BeginCmp
 TimeStamp = /5212B401;
 Reference = L1;
 ValeurCmp = 750nH;
@@ -144,28 +151,28 @@ BeginCmp
 TimeStamp = /5237BC96;
 Reference = L2;
 ValeurCmp = L;
-IdModule  = ;
+IdModule  = SM0402_Inductor;
 EndCmp
 
 BeginCmp
 TimeStamp = /523A4110;
 Reference = L3;
 ValeurCmp = L;
-IdModule  = ;
+IdModule  = SM0402_Inductor;
 EndCmp
 
 BeginCmp
 TimeStamp = /523A4DC7;
 Reference = L4;
 ValeurCmp = L;
-IdModule  = ;
+IdModule  = SM0402_Inductor;
 EndCmp
 
 BeginCmp
 TimeStamp = /523A56CE;
 Reference = L5;
 ValeurCmp = L;
-IdModule  = ;
+IdModule  = SM0402_Inductor;
 EndCmp
 
 BeginCmp
@@ -270,27 +277,20 @@ BeginCmp
 TimeStamp = /5221FD15;
 Reference = RV1;
 ValeurCmp = 5k;
-IdModule  = SM0603_Resistor;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /522E64E3;
 Reference = U1;
 ValeurCmp = 78L05;
-IdModule  = SOT-89;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /522E64C7;
 Reference = U2;
 ValeurCmp = 79L05;
-IdModule  = SOT-89;
-EndCmp
-
-BeginCmp
-TimeStamp = /523B8809;
-Reference = U3;
-ValeurCmp = BPF;
 IdModule  = ;
 EndCmp
 
