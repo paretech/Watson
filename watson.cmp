@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Tuesday, September 24, 2013 09:03:05 PM
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Wednesday, September 25, 2013 10:06:55 PM
 
 BeginCmp
 TimeStamp = /522FBAA4;
@@ -144,7 +144,7 @@ BeginCmp
 TimeStamp = /5212B401;
 Reference = L1;
 ValeurCmp = 750nH;
-IdModule  = ;
+IdModule  = 180mm_ChipCoil;
 EndCmp
 
 BeginCmp
@@ -277,7 +277,7 @@ BeginCmp
 TimeStamp = /5221FD15;
 Reference = RV1;
 ValeurCmp = 5k;
-IdModule  = ;
+IdModule  = VRSM3932_JHOOK;
 EndCmp
 
 BeginCmp
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /5212DAF3;
 Reference = U4;
 ValeurCmp = AD603;
-IdModule  = AD603;
+IdModule  = so-8;
 EndCmp
 
 BeginCmp
