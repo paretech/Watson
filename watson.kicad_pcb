@@ -3,9 +3,9 @@
   (general
     (links 81)
     (no_connects 79)
-    (area 141.783999 91.872999 275.284001 169.239001)
+    (area 245.821999 125.312484 276.4282 168.991482)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 44)
@@ -1595,10 +1595,5 @@
       (rotate (xyz 0 0 0))
     )
   )
-
-  (gr_line (start 141.859 169.164) (end 141.859 91.948) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 275.209 169.164) (end 141.859 169.164) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 275.209 92.456) (end 275.209 169.164) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 142.875 92.456) (end 275.209 92.456) (angle 90) (layer Edge.Cuts) (width 0.15))
 
 )
