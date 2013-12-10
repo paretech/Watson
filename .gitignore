@@ -1,0 +1,9 @@
+# Ignore Mac OS X custom attributes
+*.ds_store
+
+# Ignore old KiCad backup files
+*.bak
+*.bck
+
+# Ignore VIM Swap files
+*.swp
