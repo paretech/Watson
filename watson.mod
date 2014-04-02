@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  10/17/2013 10:11:41 PM
+PCBNEW-LibModule-V1  10/22/2013 8:13:00 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -8,6 +8,7 @@ AD603
 AD8307
 Murata_SFECV_Ceramic_Filter
 PIN_ARRAY_1
+Pad
 SFEC
 SM0402_Inductor
 SM0603_Capa
@@ -20,6 +21,7 @@ VarR
 c_0402
 c_0805
 c_tant_A
+hole
 sma-edge-062
 so-8
 sot23
@@ -335,6 +337,22 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE PIN_ARRAY_1
+$MODULE Pad
+Po 0 0 0 15 5267148A 00000000 ~~
+Li Pad
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "Pad"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" R 10 5 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE Pad
 $MODULE SFEC
 Po 0 0 0 15 5223A222 00000000 ~~
 Li SFEC
@@ -788,6 +806,22 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE c_tant_A
+$MODULE hole
+Po 0 0 0 15 52670826 00000000 ~~
+Li hole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N I 21 N "hole"
+T1 0 0 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "1" C 2.54 2.54 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE hole
 $MODULE sma-edge-062
 Po 0 0 0 15 523E4E2D 00000000 ~~
 Li sma-edge-062
