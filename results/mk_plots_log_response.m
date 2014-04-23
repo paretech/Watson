@@ -1,6 +1,6 @@
 % Generate Log Response Plot from CSV
 
-dat = csvread('../source/log_response.csv');
+dat = csvread('./log_response.csv');
 x = dat(1,:); y = dat(2,:);
 
 % close all
@@ -37,21 +37,15 @@ set(hAxes, ...
   'YTick'       , 0:.5:5, ...
   'LineWidth'   , 1         );
 
-saveas(hFigure, '../final/log_response_center.png');
+saveas(hFigure, '../gfx/log_response_center.png');
 
-img = imread('../final/log_response_center.png');
+img = imread('../gfx/log_response_center.png');
 
 img_rs = imresize(img, [600 800]);
 
-imwrite(img_rs, '../final/log_response_center_800_600.png', ...
+imwrite(img_rs, '../gfx/log_response_center_800_600.png', ...
     'XResolution', 800, ...
     'YResolution', 600 ...
 );
 
-
-%% Plot previous data from when filter was installed wrong
-dat = load('../../analysis/meas_20140402.txt');
-y = dat(2,:); % Measured output Voltage at 10.7 MHz
-x  = -120:.5:16;
-
-plot(x,y, 'g', 'LineWidth', 2.0)
+return
