@@ -1,6 +1,6 @@
 % Generate Log Response Plot from CSV
 
-dat = csvread('../source/log_response.csv');
+dat = csvread('./log_response.csv');
 x = dat(1,:); y1 = dat(2,:);
 
 w = double(x>-70 & x<-10);
@@ -12,9 +12,9 @@ b = double(linfit.Coefficients(1,1));
 
 y2 = m*x + b;   % Linear Approximation.
 
-db_err = (y2-y1)/m; % 10.7 
+db_err = (y1-y2)/m; % 10.7 
 
-% close all
+close all
 
 hFigure = figure('Units', 'pixels'); hold on; grid on;
 hAxes   = gca;
@@ -48,34 +48,17 @@ set(hAxes, ...
   'YTick'       , -4:1:4, ...
   'LineWidth'   , 1         );
 
-saveas(hFigure, '../final/log_conformance_center.png');
+saveas(hFigure, '../gfx/log_conformance_center.png');
 % set(gcf,'PaperUnits','inches','PaperPosition',[0 0 4 3])
 % print -djpeg '../final/log_conformance_center.png' -r100
 
-img = imread('../final/log_conformance_center.png');
+img = imread('../gfx/log_conformance_center.png');
 
 img_rs = imresize(img, [600 800]);
 
-imwrite(img_rs, '../final/log_conformance_center_800_600.png', ...
+imwrite(img_rs, '../gfx/log_conformance_center_800_600.png', ...
     'XResolution', 800, ...
     'YResolution', 600 ...
 );
 
-
-%% Plot previous data from when filter was installed wrong
-dat = load('../../analysis/meas_20140402.txt');
-y1 = dat(2,:); % Measured output Voltage at 10.7 MHz
-x  = -120:.5:16;
-
-w = double(x>-70 & x<-10);
-
-linfit = LinearModel.fit(x, y1, 'linear','Weights', w);
-
-m = double(linfit.Coefficients(2,1));
-b = double(linfit.Coefficients(1,1));
-
-y2 = m*x + b;   % Linear Approximation.
-
-db_err = (y2-y1)/m; % 10.7 
-
-plot(x,db_err, 'g', 'LineWidth', 2.0)
+return
