@@ -1,7 +1,7 @@
 % Generate Log Response Plot from CSV
 
 dat = csvread('./log_response.csv');
-x = dat(1,:); y = dat(2,:);
+f = dat(1,2:end); x = dat(2:end,1); y = dat(2:end,6);
 
 % close all
 
