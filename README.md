@@ -11,8 +11,6 @@ Watson is a relatively simple RF power meter based on the "120 dB Measurement Sy
 
 ![Snapshot of Watson's Board Layout](./gfx/pcbnew_screen.jpg)
 
-![Snapshot of Watson's Board Layout](./gfx/pcbnew_screen.jpg)
-
 ![Log Response at 10.7 MHz](./gfx/log_response_center_800_600.png)
 
 ![Log Conformance at 10.7 MHz](./gfx/log_conformance_center_800_600.png)
